@@ -1,0 +1,74 @@
+body {
+    background-color: #7b7fdf;
+    font-family: Arial, sans-serif;
+}
+
+.h1 {
+    color: white;
+    margin-top: 20px;
+}
+
+/* Scroll-bar fix (VERY IMPORTANT) */
+.container {
+    overflow: auto; 
+    min-height: 100vh;
+}
+
+/* All player cards */
+.a, .b, .c, .a1, .b1, .c1 {
+    float: left;
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 320px;
+    width: 250px;
+    background-color: rgba(9, 17, 17, 0.572);
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.a  { margin-left: 250px; }
+.a1 { margin-left: 250px; }
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px #301e46,
+                0 0 10px #1a1d53,
+                0 0 10px #0e091f;
+}
+
+.stats {
+    padding-left: 15px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.bar {
+    background: white;
+    height: 8px;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 8px;
+    border-radius: 20px;
+    background-color: rgb(30, 88, 153);
+}
+
+#a {
+    height: 150px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 100px;
+    margin-top: 6px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
